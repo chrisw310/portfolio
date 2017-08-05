@@ -1,0 +1,17 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.4.3",
+    "font-awesome": "^4.7.0",
+    "particles.js": "^2.0.0",
+    "scrollmagic": "^2.0.5"
+  }
+}

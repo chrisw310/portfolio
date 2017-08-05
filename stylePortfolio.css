@@ -1,0 +1,97 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+    margin: 0px;
+    line-height: 1.6;
+}
+
+b {
+    font-weight: bolder;
+}
+
+body {
+    width: 60vw;
+    margin-bottom: 100px;
+    
+}
+
+body {
+    margin-left: 20vw;
+}
+
+content > :not(p) {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+content > img {
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+content * {
+    opacity: 0;
+    padding-top: 40px;
+}
+
+img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+header > img {
+    width: 30%;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5em;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: center;
+    margin-top: -10px;
+    opacity: 0.6;
+}
+
+h2 {
+   font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+   font-size: 1.5em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p, ul, ol {
+    font-size: 1.2em;
+}
+
+#leftArrow {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    left: -5vw;
+    bottom: calc(50vh - 50px);
+    opacity: 0;
+    border-radius: 100px;
+    transition: all .2s ease-in-out;
+    }
+
+#leftArrow:hover {
+    opacity: 1;
+    }
+
+iframe {
+    margin-left: calc(50% - 280px);
+}

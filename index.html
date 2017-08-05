@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chris Wilkinson</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+</head>
+
+<body>
+  <section class="hero is-fullheight has-text-centered" id='text'>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          CHRIS WILKINSON
+        </h1>
+        <h2 class="subtitle">
+          INTERACTIONS THAT MATTER
+        </h2>
+      </div>
+    </div>
+    <div class="bounce" id="arrow"><i class="fa"></i></div>
+  </section>
+  <section id='about'>
+    <div class="test"></div>
+     <div id="overlay"><img src="Images/cimg3440-2304x1728.jpg" data-parallax="true" data-speed="0.1" data-direction="up" alt=""></div>
+    <div class="container">
+      <div class="title"><br>
+        <p>I think about how to make large-scale products and applications easier to use and navigate for regular people. My interests include Data Visualisation, and User Interface Design.</p><br>
+        <p>As a Bachelor of IT student at the University of Queensland, I have designed in groups, and with clients, to produce real world results.</p>
+        <br></div>
+    </div>
+  </section>
+  <section id="kapiche">
+    <div class="columns">
+      <div class="column"><img src="Images/kapiche.png"></div>
+      <div class="column">
+        <div class="title">2017-present</div>
+        <div class="subtitle">iLab Winter Internship at a startup company for processing unstructured data. <strong>Details coming soon</strong></div>
+      </div>
+    </div>
+    
+  </section>
+  <section id="teledr">
+    <div class="columns">
+      <div class="column"><img src="Images/teledr.png"></div>
+      <div class="column">
+        <div class="title">Summer 2016</div>
+        <div class="subtitle">UQ Summer Research project proposing an interaction design framework for a Telehealth Business</div>
+      </div>
+    </div>
+  </section>
+  <section id="depicture">
+    <div class="columns">
+      <div class="column"><img src="Images/depictureLogo.png"></div>
+      <div class="column">
+        <div class="title">Feb 2016 - June 2016</div>
+        <div class="subtitle">Group Project exploring the link between images and music</div>
+      </div>
+    </div>
+  </section>
+  <section id="bubbler">
+    <div class="columns">
+      <div class="column"><img src="Images/bubbler.png"></div>
+      <div class="column">
+        <div class="title"><strong>TeleDr</strong> Summer 2016</div>
+        <div class="subtitle">Group project exploring how to eliminate the 'filter bubble' in journalism</div>
+      </div>
+      
+    </div>
+  </section>
+  <section id='misc'>
+    <div class="columns">
+      <div class="column">
+        <div class="title"><strong>Miscellaneous Designs</strong></div>
+      </div>
+      <div class="column">
+        <div class="subtitle" id="miscSub">Small Design snippets and half-baked ideas, including CV, Graphic designs, and side projects</div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <a class="icon" href="mailto:cw@fea.st">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <span>cw@fea.st |</span>
+          <a class="icon" href="https://github.com/chrisw310">
+            <i class="fa fa-github"></i>
+          </a>
+          <span>chrisw310 |</span>
+          <a class="icon" href="https://www.linkedin.com/in/chris-wilkinson-86a089100/">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <span>Chris Wilkinson |</span>
+          <a class="icon" href="tel:+61423034325">
+            <i class="fa fa-phone"></i>
+          </a>
+          <span>+61 423 034 325</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <div id="particles-js"></div>
+  <script src="assets/particles.js"></script>
+  <script src="script.js"></script>
+  <script>
+    
+    $(document).ready(function(){
+      function draw() {
+        requestAnimationFrame(draw);
+        // Drawing code goes here
+        scrollEvent();
+      }
+    draw();
+    });
+ 
+function scrollEvent(){
+ 
+    if(!is_touch_device()){
+        viewportTop = $(window).scrollTop();
+        windowHeight = $(window).height();
+        viewportBottom = windowHeight+viewportTop;
+ 
+        if($(window).width())
+ 
+        $('[data-parallax="true"]').each(function(){
+            distance = viewportTop * $(this).attr('data-speed');
+            if($(this).attr('data-direction') === 'up'){ sym = '-'; } else { sym = ''; }
+            $(this).css('transform','translate3d(0, ' + sym + distance +'px,0)');
+        });
+ 
+    }
+}   
+ 
+function is_touch_device() {
+  return 'ontouchstart' in window // works on most browsers 
+      || 'onmsgesturechange' in window; // works on ie10
+}
+  </script>
+</body>
+
+</html>
