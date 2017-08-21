@@ -1,0 +1,42 @@
+// Bootstrap overrides for this template
+.text-primary {
+  color: $theme-primary !important;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+ .navbar .container {
+  margin: 0;
+  min-width: 100%
+}
+
+.btn-default {
+  @include button-variant($gray-darker, white, white);
+}
+
+.btn-primary {
+  @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  @include sans-serif-font;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1.5rem;
+}
