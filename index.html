@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
 
+    
   </head>
 
   <body id="page-top">
@@ -64,29 +65,30 @@
       </div>
     </header>
 
-    <section class="bg-dark" id="about">
-      <img class='sr-icons' src='img/me.jpg' />
+    <section class='bg-dark' id="about">
+      <!--<img data-parallax="true" data-speed="0.1" data-direction="up" src="/img/brisbane.jpg" id='background' />-->
+      <img class='sr-icons' src='img/me.jpg' id='me'/>
+      <h3 class="text-center">I make people productive.</h3>
+      <br>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 text-center">
-            <p>I think about how to make people productive in large scale enterprise software. <p>My interests include:</p>
-            <ul>
+          <div class="col-lg-6 text-right">
               <li><i class="fa fa-2x fa-line-chart sr-icons"></i> <p>Data Visualisation</p></li>
-              <li><i class="fa fa-2x fa-flask sr-icons"></i> <p>Usability Research</p></li>
+              <li><i class="fa fa-2x fa-flask sr-icons"></i><p>Usability Research</p></li>
               <li><i class="fa fa-2x fa-mouse-pointer sr-icons"></i> <p>User Interface Design</p></li>
-            </ul>
-        <p>As a Bachelor of IT student at the University of Queensland, I have worked in teams, with clients, and  in companies to produce real world results.</p>
-            
+              <li><i class="fa fa-2x fa-paint-brush sr-icons"></i> <p>Visual Design</p></li>
           </div>
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-left">
             <h3>Location</h3>
             <p>Brisbane, Australia</p>
             <h3>Education</h3>
-            <p>B.I.T. at the University of Queensland, Major in User Experience Design (2015-2018)</p>
+            <p>B.I.T. Student at the University of Queensland, Major in User Experience Design, GPA 5.93/7</p>
+            <p>Exchange Semester at the University of Maryland, Late 2017</p>
             <h3>Skills</h3>
-            <p>HTML, CSS, JS, Illustrator, Photoshop, and Java</p>
+            <p>HTML, CSS, JS, Illustrator, Photoshop, Java, C#</p>
           </div>
         </div>
+        <h4 class="text-center">I have worked with teams, clients, and companies to produce real world results.</h4>
       </div>
     </section>
 
@@ -95,7 +97,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">My Work</h2>
-
+            <hr class="primary">
           </div>
         </div>
       </div>
@@ -198,7 +200,7 @@
       </div>
     </section>
 
-    <div class="call-to-action bg-dark">
+    <div class="call-to-action" id="animate-area">
       <div class="container text-center">
         <h4><i>"During his time at Kapiche, Chris showed he was a fast learner and extremely dedicated to his work. In a short time, he was able to get acquainted with a new technology stack, get familiar with our product, and make valuable contributions to the development process."</i></h4>
         <p>- Ryan Stuart, CEO of Kapiche</p>
@@ -258,6 +260,8 @@
     <script src="js/creative.min.js"></script>
     
     <script src="js/particles.js"></script>
+    
+    <script src="js/parallax.js"></script>
     
   </body>
 
