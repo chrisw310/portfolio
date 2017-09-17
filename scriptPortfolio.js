@@ -1,7 +1,10 @@
 $(document).ready(function() {
-    
-$('content *').animate({ // initial
-    opacity: "1", // appear
+
+$('body').animate({ // initial
+  opacity: "1", // appear
+}, 1000, 'easeOutCubic', function() {});
+
+$('content').animate({ // initial
     padding: "10px" // move up
     }, 1000, 'easeOutCubic', function() {});
     
