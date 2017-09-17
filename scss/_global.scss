@@ -124,6 +124,10 @@ li {
   filter: brightness(50%);
 }
 
+#about .row {
+  padding-bottom: 20px;
+}
+
 .col-lg-6.text-right {
   border-right: 1px solid white;
   margin-bottom: 30px;
@@ -147,5 +151,10 @@ li {
   background-image: url(/bgtest2.png);
   background-position: 0px 0px;
   background-repeat: repeat-x;
+  background-size: cover;
   animation: animatedBackground 20s linear infinite;
+}
+
+#contact h4 {
+  margin-top: 50px;
 }
