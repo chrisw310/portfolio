@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>TeleDR - Chris Wilkinson</title>
-    <link rel="stylesheet" type="text/css" href="stylePortfolio.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script   src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
-        <script src="scriptPortfolio.js"></script>
-          <script src="jquery.easing.1.3.js"></script>
-  </head>
-  <body>
-        <content id="content">
 
-<h1>TeleDR</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>TeleDR - Chris Wilkinson</title>
+  <link rel="stylesheet" type="text/css" href="stylePortfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+  <script src="scriptPortfolio.js"></script>
+  <script src="jquery.easing.1.3.js"></script>
+</head>
 
-<h2>Description</h2>
+<body>
+  <content id="content">
 
-<img src="img/Main.png" />
+    <h1>TeleDR</h1>
 
-<p>Surgery Finder was a proposed online application for General Practitioners to give out referrals online, streamlining the referral process for both the GP and the customer. </p>
-
-<p>Referrals have been a constant in the workflow of a General Practitioner for years. As work becomes more and more digitised with every decade, the health industry remains to be stagnant relative to other industries. Development of a system in which referrals are bought and sold online has been proposed to make the referral system simpler, faster and more accessible.</p>
-
-<p>As part of the University of Queensland's Summer Research Program, I was given the task of producing an interaction design research paper to outline considerations for such an app. These considerations are taken from a review of current rival competitors online, and a review of the current interaction design literature in the context of an online application. Two frameworks were proposed on the approach in which Surgery Finder will take to provide referrals to patients online.</p>
-
-<p>Preliminary wireframes were created to demonstrate the design of such an application. Major content represented was the main page, the serch results, and the listings. </p>
-
-<img src="img/results.png" />
-
-<img src="img/listing.png" />
-
-<p>Key insights to the telehealth industry were found:</p>
-<ul>
-    <li>Design of the website is paramount to building trust in the user. Certification badges for websites were actually counterintuitive to gaining trust in the users.</li>
-    <li>Use varying degrees of communication for each context. Not every patient wants to use video conferencing to talk to their doctor.</li>
-    <li>Ratings and reviews were key to building a sense of community. A sense of community can greatly increase the sense of trust and satifaction with a marketplace-based website.</li>
-</ul>
+    <img src="img/Main.png" />
+    
+    <h2>Challenge</h2>
 
 
 
-     
-      </content>
-      <a href="index.html#projects">
+    <p>Referrals have been a constant in the workflow of a General Practitioner for years. As work becomes more and more digitised with every decade, the health industry remains to be stagnant relative to other industries. There has never been a greater need to make the referral system simpler, faster and more accessible for patients.</p>
+
+    <p>TeleDR was a company dedicated to bringing the referral system for General Practitioners online. As part of the University of Queensland's Summer Research Program, I was given the task of producing an interaction design research paper to utilise previous research on the problem space to advise further development of an online referral application.</p>
+
+    
+
+
+    <h2>Competitor Analysis</h2>
+    
+    <p>First, a competitor analysis was conducted of other online refferal systems currently on the market. These included websites such as ZocDoc, Doctors on Demand, and Simple Online Doctor. </p>
+    
+    <p>Key insights to these competitors were found:</p>
+    <ul>
+      <li>The primary barrier to the adoption of an online refferal system is to build trust with the users. Many sites did not make much effort to build trust and relied on the use of certifications to prove their credibility. Other factors are important, such as the overall visual design of the webiste, as well as the sense of community that the website fosters. Use of ratings, reviews, and comments are a very good place to start to build credibility and trustworthiness of a website.</li>
+      <li>There were two distinct ways sites would let users navigate through the page. One way is to ask the user questions about their illness, and the website would linearly navigate the user to a doctor that best matches their need. The other way is to let the user search and explore doctors by manually navigating through the pages. Both have their advantages, so many sites were found to use a hybrid of these two philosophies of navigation.</li>
+      <li>Many of the sites still lack a user base nor the range of listings to offer a complete solution for finding referrals online. Some only offered 2 doctors to choose from. There is a clear 'critical mass' that needs to be reached for an online referral website to reach it's full potential.</li>
+    </ul>
+    
+    <h2>Literature Review</h2>
+    
+    <p>A literature review was conducted to understand the problem space of telehealth and online referrals.</p>
+    
+    <p>Telepresence is a well studied field in Human-Computer Interaction and Interaction Design. Many telehealth applications try to emulate a genuine conversation between the general GP and the patient, through media such as video and audio. This is known as a sense of “telepresence” in interaction design. However, there are problems with presupposing that face-to-face conversations are favoured by either the GP or the patient. Telepresence seems to be the most natural in theory, but implementations never match what the user actually needs.</p>
+    
+    <p>The challenges when developing an online marketplace were also explored. Studies have shown that trust can be built when the user can find out more details about the seller, such as a photo, name, or occupation. One study even showed that those who do work remotely perform better when they know information about their employer.</p>
+    
+    <p>Social Software (also known as Computer Supported Cooperative Work) is a major challenge for Interaction Design. Johnathan Grudin of Microsoft outlined 8 challenges for those who develop social software, such as showing a clear benefit for contributing to the group work, and embracing new ways users may work with the software. These were major considerations in developing an interface in which an online community is central to growth.</p>
+    
+    <p>Various suggestions were made to combat these issues, such placing an importance on visual design, or to promote visibility of each user in an online community. These suggestions would form the basis of TeleDR's newly proposed application.</p>
+    
+    <h2>Wireframing</h2>
+
+    <p>Next, preliminary wireframes were created to demonstrate the design of such an application. Major content represented was the main page, the serch results, and the listings. </p>
+
+    <h2>Results</h2>
+
+    <img src="img/results.png" />
+
+    <img src="img/listing.png" />
+
+    <p>Key insights to the telehealth industry were found:</p>
+    <ul>
+      <li>Design of the website is paramount to building trust in the user. Certification badges for websites were actually counterintuitive to gaining trust in the users.</li>
+      <li>Use varying degrees of communication for each context. Not every patient wants to use video conferencing to talk to their doctor.</li>
+      <li>Ratings and reviews were key to building a sense of community. A sense of community can greatly increase the sense of trust and satifaction with a marketplace-based website.</li>
+    </ul>
+
+
+
+
+  </content>
+  <a href="index.html#projects">
         <img style="opacity:0;" id="leftArrow" src="img/arrowLeft.jpg" />
         </a>
 </body>
+
 </html>
