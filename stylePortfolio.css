@@ -13,7 +13,8 @@ b {
 .skills {
 	text-align: center;
 	font-weight: bolder;
-	font-size: 18px;
+	font-size: 22px;
+    padding-top: 30px;
 }
 
 body {
@@ -33,10 +34,6 @@ content > img {
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-content * {
-    padding-top: 40px;
 }
 
 img {
@@ -68,6 +65,7 @@ figcaption {
 h2 {
    font-size: 2em;
     font-family: 'Work Sans', sans-serif;
+  margin-top: 40px;
 }
 
 h3 {
