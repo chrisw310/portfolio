@@ -40,9 +40,19 @@ p {
   padding-bottom: 20px;
 }
 
-img {
+img:not(#leftArrow) {
     width: 80%;
     margin-left: 10%;
+}
+
+a {
+  position: fixed;
+  top: 90px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  left: 45px;
+  color: black;
 }
 
 header > img {
@@ -83,18 +93,18 @@ p, ul, ol {
 
 #leftArrow {
     position: fixed;
-    height: 100px;
-    width: 100px;
-    left: -5vw;
-    bottom: calc(50vh - 50px);
+    height: 40px;
+    width: 40px;
+    top: 50px;
+    left: 55px;
     opacity: 0;
     border-radius: 100px;
     transition: all .2s ease-in-out;
-    }
+}
 
 #leftArrow:hover {
     opacity: 1;
-    }
+}
 
 iframe {
     margin-left: calc(50% - 280px);
