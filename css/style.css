@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: linear-gradient(45deg, #1de099, #4ab4f7);
+  background: linear-gradient(0deg, #b6dff9 0%, #4ab4f7 100%);
   color: #fff;
   padding: 2px 20px 8px 20px;
   font-size: 16px;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #4ab4f7);
+  background: linear-gradient(0deg, #b6dff9 0%, #4ab4f7 100%);
   color: #fff;
   outline: none;
 }
@@ -482,7 +482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 60px;
   height: 3px;
-  background: linear-gradient(0deg, #BBBBBB 0%, #BBBBBB 100%);
+  background: linear-gradient(0deg, #b6dff9 0%, #4ab4f7 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
