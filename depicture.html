@@ -1,104 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Depicture - Chris Wilkinson</title>
-  <link rel="stylesheet" type="text/css" href="../stylePortfolio.css">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
-  <script src="../scriptPortfolio.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"></script>
+  <meta charset="utf-8">
+  <title>Chris Wilkinson - Kapiche</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="icons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="icons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="icons/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="icons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="icons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="icons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="icons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="icons/mstile-310x310.png" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <content id="content">
+  <header id="header">
+    <div class="container">
 
-    <h1>DePicture</h1>
+      <div id="logo" class="pull-left">
+        <h1><a href="/index.html" class="scrollto">CW.CO</a></h1>
+      </div>
 
-    <p>DePicture is a web application designed to collect data for exploratory research. My role in a team of 4 was to conceptualise the design and functionality, as well as provide some help to the frontend development of the application.</p>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#introDePicture">Home</a></li>
+          <li><a href="#about">Challenge</a></li>
+          <li><a href="#kapiche">Process</a>
+          <li><a href="#results">Results</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="introDePicture">
+  
+    <h2 class="wow fadeInLeft">DePicture</h2>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">About</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/advanced-feature-3.jpg">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight">
+            <h2>Exploratory Research Made Fun</h2>
+            <h3>Very little is known about how the human brain processes abstract art. What are interpretations? How do they differ amongst other people? Could interpretations be correct or incorrect? These are questions which our team wished to explore.</h3>
+
+            <p><strong>DePicture is an application which utilises gamification to collect data for exploratory research purposes.</strong> Users can either view the gallery page and see other people’s drawings, or they can participate in the data collection process by either drawing alone or within a specially designed multiplayer game. It utilises the Trove database to pull in random forms of media, and a JavaScript library which enables the functionality of multiple users collaborating within the same application.</p>
+           <p></p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
     
-    <h2>Challenge</h2>
+     <section id="call-to-action"></section>
 
-    <p>Very little is known about how the human brain processes abstract art. What are interpretations? How do they differ amongst other people? Could interpretations be correct or incorrect? These are questions which our team wished to explore.</p>
+    <!--==========================
+      Product Advanced Featuress Section
+    ============================-->
+    <section id="advanced-features">
 
-    <h2>Solution</h2>
+      <div class="features-row" id="kapiche">
+        <div class="container">
+         
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/depicture/taskFlow.jpg" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Process</h2>
+     <ul>
+                <h3>First, key functionality of the game would have to be established before any development. We as a team came together and discussed how to make the game engaging and have a clear sense of reward for the user. </h3>
+     <ul>
+
+      <li><strong>Next, I developed a ‘task flow’ diagram and a storyboard to lay out all of the interactions the user would make with the application</strong>, as well as the various screen that the user will encounter when using the app. These sketches were done in very low fidelity in order to ensure the ability for quick changes and improvements to the task flow.</li><br>
+      <li><strong>These screens were sketched into Adobe Photoshop</strong> and printed out to form the basis for the first usability test.</li><br>
+       <li>Users would interact with every screen using <strong>pre-constructed user journeys</strong>, such as:</li>
+      <ol>
+        <li>Drawing an image in the 'free draw' mode.</li>
+        <li>Voting on an image in the gallery</li>
+        <li>Competing against a friend in competitive play.</li>
+      </ol><br>
+      <li><strong>Users would follow each user journey while key observations were written down.</strong> After the test, users were able to express any thoughts that they had with the application. Users found the application’s purpose to be unclear, and that some screens were not clear on their intended interaction. Work needed to be done to clarify the purpose of the application and the screens.</li>
+    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- #advanced-features -->
+
+     
+           <section id="advanced-features">
+
+      <div class="features-row section-bg" id="kapiche">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-left wow fadeInLeft" src="img/depicture/prototype.png" alt="">
+              <div class="wow fadeInRight">
+                  <h3>A high-fidelity prototype was developed to test the user's response to key interactions and visual elements. Non-essential design elements such as images and help screens were left to a later date in the interest of developing a complete prototype for the usability test.</h3>
     
-    <img src="portfolioC/image021.png" />
-    
-    <p>DePicture is an application which utilises gamification to collect data for exploratory research purposes. Users can either view the gallery page and see other people’s drawings, or they can participate in the data collection process by either drawing alone or within a specially designed multiplayer game. It utilises the Trove database to pull in random forms of media, and a JavaScript library which enables the functionality of multiple users collaborating within the same application.</p>
+                  <p>A usability test was conducted with 5 users to collect feedback on the concept, and key interactions with the application. This was conducted with the same procedure as the paper prototype, in order to provide consistent and comparable feedback to previous iterations.</p>
+             
+                 <p>Users had very negative impressions of the application. Users still found the purpose of the application unclear. Furthermore, users found guessing the genre of a drawing to be very difficult and unfair. This combination of user feedback led the group to conclude that users were not very enthusiastic about the application's concept, and a drastic change was needed to make the game more enjoyable and appealing.</p>
 
-    <h2>Process</h2>
-    
-    <p>First, key functionality of the game would have to be established before any development. We as a team came together and discussed how to make the game engaging and have a clear sense of reward for the user. </p>
+                <p>After the usability tests, a major overhaul of the mechanics of the game were made. The music and images in "Free Draw" were placed into their own game modes "Music Draw" and "Free Draw" respectively. This meant that the drawing prompts were greatly simplified and the media source could be isolated from the other source when doing research analysis.</p>
 
-    <img src="portfolioA/image003.jpg" />
+                <p>It was also decided that the focus would be taken away from genres and towards individual media sources. Users would guess the drawings not by genre, but by the original source. They would be prompted with 4 options: the correct answer, and three other randomly generated answers. The gallery page was also merged into one page, as the genre tags were rendered meaningless for the user experience.</p>
 
-    <p>Next, I developed a ‘task flow’ diagram and a storyboard to lay out all of the interactions the user would make with the application, as well as the various screen that the user will encounter when using the app. These sketches were done in very low fidelity in order to ensure the ability for quick changes and improvements to the task flow.</p>
+                <p>The final product was demonstrated to other students and staff members. This would be the chance to market the application and get crucial feedback on how appealing the concept and application are.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
 
-    <img src="portfolioA/image005.jpg" />
+     <section id="call-to-action"></section>
 
-    <img src="portfolioA/image007.jpg" />
+       <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container" id="results">
+        <div class="section-header">
+          <h3 class="section-title">Results</h3>
+          <span class="section-divider"></span>
+        </div>
 
-   <p>These screens were sketched into Adobe Photoshop and printed out to form the basis for the first usability test.</p>
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/depicture/result.jpg" alt="">
+          </div>
 
-    <img src="portfolioB/image005.jpg" />
-
-    <p>Users would interact with every screen using pre-constructed user journeys, such as:</p>
-    <ol>
-      <li>Drawing an image in the 'free draw' mode.</li>
-      <li>Voting on an image in the gallery</li>
-      <li>Competing against a friend in competitive play.</li>
-    </ol>
-    
-    <img src="portfolioB/image009.jpg" />
-
-    <p>Users would follow each user journey while key observations were written down. After the test, users were able to express any thoughts that they had with the application. Users found the application’s purpose to be unclear, and that some screens were not clear on their intended interaction. Work needed to be done to clarify the purpose of the application and the screens.</p>
-    
-    <p>The use of context-aware hints were proposed to explain each screen as the user navigated through the app. Minor interactions were reviewed to make clear their functionality and propose.</p>
-
-
-    <img src="portfolioB/image017.png" />
-
-    <p>A high-fidelity prototype was developed to test the user's response to key interactions and visual elements. Non-essential design elements such as images and help screens were left to a later date in the interest of developing a complete prototype for the usability test.</p>
-    
-    <p>A usability test was conducted with 5 users to collect feedback on the concept, and key interactions with the application. This was conducted with the same procedure as the paper prototype, in order to provide consistent and comparable feedback to previous iterations.</p>
-
-    <img src="portfolioC/image001.jpg" />
-
-    <img src="portfolioC/image003.jpg" />
-
-    <img src="portfolioC/image009.jpg" />
-
-    <p>Users had very negative impressions of the application. Users still found the purpose of the application unclear. Furthermore, users found guessing the genre of a drawing to be very difficult and unfair. This combination of user feedback led the group to conclude that users were not very enthusiastic about the application's concept, and a drastic change was needed to make the game more enjoyable and appealing.</p>
-
-    <p>After the usability tests, a major overhaul of the mechanics of the game were made. The music and images in "Free Draw" were placed into their own game modes "Music Draw" and "Free Draw" respectively. This meant that the drawing prompts were greatly simplified and the media source could be isolated from the other source when doing research analysis.</p>
-
-    <p>It was also decided that the focus would be taken away from genres and towards individual media sources. Users would guess the drawings not by genre, but by the original source. They would be prompted with 4 options: the correct answer, and three other randomly generated answers. The gallery page was also merged into one page, as the genre tags were rendered meaningless for the user experience.</p>
-
-    <p>The final product was demonstrated to other students and staff members. This would be the chance to market the application and get crucial feedback on how appealing the concept and application are.</p>
-
-    <img src="portfolioC/image014.png" />
-
-
-    <img src="portfolioC/image015.png" />
-
-    <h2>Results</h2>
-    
-    <p>Overall, I believe the implementation of the product was a success. After a shaky start, we learned to communicate our design and development ideas. The program was fully implemented with no major issues with the application.</p>
+          <div class="col-lg-6 content wow fadeInRight">
+            <h3>Overall, I believe the implementation of the product was a success. After a shaky start, we learned to communicate our design and development ideas. The program was fully implemented with no major issues with the application.</h3>
     
     <p>This is what I had learned over the course of the project:</p>
     <ol>
-      <li>Early on in the design process, perform some research and investigation to who might use such an application. It is important at the very start to establish assumptions we have made as well as a hypothesis to help establish a goal and to ensure work relevant to the task. This means that the application will be more focused in its purpose and market, and therefore increase adoption rate and success of the final implementation.</li>
-      <li>Clearly communicate task roles, and keep a log of tasks. In the project planning phase, group members need to be fully aware of their roles in the project, what tasks they are required to undertake, and what tasks are being done by other group members. The more communication, the less likely there is to be confusion over which tasks are being dealt with and need to be addressed, which impede on overall project progress.</li>
-      <li>Leave more time at the end for new issues that might arise. The project plan was made in the assumption that no major issues may arise between then and the final day. There were a few issues that arose in the last 48 hours of the project, meant that the last moments of the development process were stressful, and exhausting. If there are no issues left with the application, then the time will be spent polishing the design and functionality of all the existing features and elements of the project.</li>
+      <li><strong>Early on in the design process, perform some research and investigation to who might use such an application.</strong> It is important at the very start to establish assumptions we have made as well as a hypothesis to help establish a goal and to ensure work relevant to the task. This means that the application will be more focused in its purpose and market, and therefore increase adoption rate and success of the final implementation.</li><br>
+      <li><strong>Clearly communicate task roles, and keep a log of tasks.</strong> In the project planning phase, group members need to be fully aware of their roles in the project, what tasks they are required to undertake, and what tasks are being done by other group members. The more communication, the less likely there is to be confusion over which tasks are being dealt with and need to be addressed, which impede on overall project progress.</li><br>
+      <li><strong>Leave more time at the end for new issues that might arise.</strong> The project plan was made in the assumption that no major issues may arise between then and the final day. There were a few issues that arose in the last 48 hours of the project, meant that the last moments of the development process were stressful, and exhausting. If there are no issues left with the application, then the time will be spent polishing the design and functionality of all the existing features and elements of the project.</li>
     </ol>
-   
-  </content>
-  <a href="index.html#projects">
-       <img id="leftArrow" src="../img/arrowLeft.jpg" />Home
-    </a>
-</body>
+          </div>
+        </div>
 
+      </div>
+    </section><!-- #about -->
+  
+   
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left"></div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Contact</h3>
+              <p>I look forward to be working with you.</p>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/chrisjohnwilkinson/" class="twitter"><i class="fa fa-linkedin"></i></a>
+                <a href="https://dribbble.com/chriswilkinson" class="facebook"><i class="fa fa-dribbble"></i></a>
+                <a href="https://github.com/chrisw310" class="instagram"><i class="fa fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCxSWL_E9Lp_8nHNHW9E_MJQ" class="instagram"><i class="fa fa-youtube"></i></a>
+                <a href="http://chriswilkinson.co/ChrisWilkinsonCV.pdf" class="instagram"><i class="fa fa-file"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <a href="mailto:chris@chriswilkinson.co"><p>chris@chriswilkinson.co</p></a>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <a href="tel:+61423034325"><p>+61 423 034 325</p></a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="errormessage"></div>
+              <form action="//formspree.io/cw@fea.st" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="_replyTo" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write a message" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" value="Send" title="Send Message">Send Email</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
