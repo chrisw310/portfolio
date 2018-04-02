@@ -672,8 +672,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #666666;
   font-size: 64px;
   transition: 0.5s;
-  float: left;
-  padding: 0 15px 0px 0;
   line-height: 1;
 }
 
@@ -1236,5 +1234,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about img {
+  margin-bottom: 20px;
+}
+
+.features-row td:first-child {
+  text-align: center;
+}
+
+.features-row td {
+  text-align: left;
+  padding: 10px;
+}
+
+.features-row table {
   margin-bottom: 20px;
 }
