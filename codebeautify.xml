@@ -20,7 +20,7 @@
 		</author>
 		<content type="application/xml">
 			<m:properties>
-				<d:OrderID>Test</d:OrderID>
+				<d:OrderID>1405</d:OrderID>
 				<d:CustomerID>VINET</d:CustomerID>
 				<d:EmployeeID m:type="Edm.Int32">5</d:EmployeeID>
 				<d:OrderDate m:type="Edm.DateTime">1996-07-04T00:00:00</d:OrderDate>
